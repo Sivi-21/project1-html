@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <style>
+        body{
+            background-color: lightcyan;
+        }
+        h2{
+            color:#00796b;
+            text-align: center;
+            font-size:60px;
+        }
+        p{
+            font-size: 20px;
+        }
+        .end{
+            text-align: end;
+            justify-content: end;
+        }
+        .grid{
+            margin-top: 0;
+            display: grid;
+            grid-template-columns: repeat(4, 260px) ;
+            grid-template-rows: repeat(2,200px);
+            row-gap: 30px;
+            column-gap: 30px;
+            background-color: rgb(96, 161, 179);
+            padding: 1%;
+        }
+        .grid > div{
+            margin-left:15% ;
+            background-color: rgb(170, 205, 205);
+        }
+        .at{
+            color:black;
+            display:flex;
+            justify-content: center;
+            align-items: center;
+            text-decoration: none;
+            font-size: 30px;
+        }
+        .font{
+            font-style: italic;
+            padding: 10px;
+           
+           font-weight: 35;
+        }
+        .box{
+            display: grid;
+            grid-template-columns: 300px 300px 300px;
+            grid-template-rows: 350px 350px ;
+            gap: 10%;
+        }
+        img{
+            height: 90%;
+            width: 110%;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <section class="page-content">
+    <h2>About Us</h2>
+    <div class="box">
+        <div class="text">
+            <img src="https://media.istockphoto.com/id/1473470242/photo/indian-caregiver-nurse-taking-care-of-senior-female-patient-in-a-wheelchair-at-park.webp?a=1&b=1&s=612x612&w=0&k=20&c=D-SR4bQ5LSoXw4TTVoM4ddfREZQoPgTbnDz8vaUSF6w=" width="200px" alt="">
+            <p>With a team of trained, certified, and compassionate caregivers, we deliver support tailored to individual
+                needs-whether it's help with daily activities, companionship..</p>
+            
+        </div>
+        <div class="text">
+            <img src="./pic7.jpg" width="200px" alt="">
+            <br><p>We offer in-home nursing, personal hygiene assistance. Your loved ones will receive quality care while staying in the comfort of their own homes.
+    </p>
+        </div>
+        <div class="text">
+            <img src="./pic8.jpg" width="200px" alt="">
+            <p>We provide compassionate and personalized home care services for the elderly, ensuring they receive the support they need in the comfort of their own homes. Our goal is to promote independence,a better quality of life for seniors.
+</p>
+        </div>
+    </div>
+</section>
+    <div class="grid">
+        <div class="items">
+            <a  class="at" href="#"><i class="fa-solid fa-hand-holding-heart"></i></a>
+            <H3 ><CENTER>APPROACH</CENTER></H3>
+            <h3 class="font">Our Care Like Son and Daughter includes holistic support for physical,emotional well-being.</h3>
+        </div>
+        <div class="items">
+            <a  class="at" href="#"><i class="fa-solid fa-people-group"></i></a>
+            <H3><CENTER>TEAM</CENTER></H3>
+            <h3 class="font">Accomplish, empathetic, socio-economically matched Care managers supported by 3-level institutional backup.</h3>
+        </div>
+        <div class="items">
+           <a  class="at" href="#"><i class="fa-solid fa-house-medical"></i></a>
+            <H3><CENTER>EXPERTISE</CENTER></H3>
+                <h3 class="font">Cared by geriatric,multi-disciplinary specialists,the team of doctors  for Healthy Ageing.</h3>
+        </div>
+        <div class="items">
+            <a  class="at" href="#"><i class="fa-solid fa-shuffle"></i></a>
+            <h3><CENTER>FLEXIBILITY</CENTER></h3>
+            <h3 class="font">Personalised to your family, portable across locations, and available through multiple channels. </h3>
+        </div>
+        <div class="items">
+            <a  class="at" href="#"><i class="fa-solid fa-location-dot"></i></a>
+            <h3><CENTER>REACH</CENTER></h3>
+                <h3 class="font">Comprehensive on-ground presence, service in 350 Indian cities, customers in 33 countries.</h3>
+        </div>
+        <div class="items">
+            <a  class="at" href="#"><i class="fa-solid fa-medal"></i></a>
+            <h3><CENTER>REPUTATION</CENTER></h3>
+                <h3 class="font">Consistently high-ratings and referrals by clients, preferred by bluechip corporate partners.</h3>
+        </div>
+        <div class="items">
+            <a  class="at" href="#"><i class="fa-solid fa-indian-rupee-sign"></i></a>
+            <h3><CENTER>PRICING</CENTER></h3>
+                <h3 class="font">Our rates are based on the family, not per individual senior. Transparent pricing with no hidden fees. </h3>
+        </div>
+        <div class="items">
+            <a  class="at" href="#"><i class="fas fa-university" style="color: black; font-size: 24px;"></i></a>
+            <h3><CENTER>GOVERNANCE</CENTER></h3>
+            <h3 class="font" >Mission-driven, led by professional founders with a strong track record, backed by marquee social investors. </h3>
+        </div>
+    </div>
+
+  <footer class="end">
+   
+    <p><bold>&copy; 2025 Elder Care Services. All rights reserved.</bold></p>
+  </footer>
+</body>
+</html>

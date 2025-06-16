@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Elder Health Care Center - Application Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: lightcyan;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .form-container {
+      background-color: ;
+      padding: 25px;
+      border-radius: 10px;
+      max-width: 600px;
+      margin: auto;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color:  #00796b;
+    }
+
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+
+    input, select, textarea {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid  #00796b;
+      border-radius: 5px;
+    }
+
+    button {
+      margin-top: 20px;
+      background-color: #3498db;
+      color: white;
+      border: none;
+      padding: 12px;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #2980b9;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="form-container">
+    <h2>Elder Health Care Application Form</h2>
+    <form action="#" method="post">
+      
+      <label for="fullName">Full Name of Applicant:</label>
+      <input type="text" id="fullName" name="fullName" required>
+
+      <label for="dob">Date of Birth:</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="gender">Gender:</label>
+      <select id="gender" name="gender">
+        <option value="">--Select--</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+
+      <label for="contact">Contact Number:</label>
+      <input type="tel" id="contact" name="contact" required>
+
+      <label for="address">Address:</label>
+      <textarea id="address" name="address" rows="3" required></textarea>
+
+      <label for="guardian">Guardian Name & Relationship:</label>
+      <input type="text" id="guardian" name="guardian">
+
+      <label for="emergency">Emergency Contact Number:</label>
+      <input type="tel" id="emergency" name="emergency">
+
+      <label for="medical">Existing Medical Conditions:</label>
+      <textarea id="medical" name="medical" rows="3"></textarea>
+
+      <label for="services">Services Required:</label>
+      <select id="services" name="services">
+        <option value="">--Select--</option>
+        <option>Daily Health Monitoring</option>
+        <option>Meal Assistance</option>
+        <option>Physiotherapy</option>
+        <option>Medication Management</option>
+        <option>Full Care (24/7)</option>
+      </select>
+
+      <label for="other">Other Needs (Optional):</label>
+      <textarea id="other" name="other" rows="2"></textarea>
+
+      <button type="submit">Submit Application</button>
+    </form>
+  </div>
+
+</body>
+</html>
